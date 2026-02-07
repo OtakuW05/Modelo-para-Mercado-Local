@@ -1,0 +1,58 @@
+.bg-vermelho-custom {
+  background-color: #c42f3a;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(fonts/Lato/Lato-Regular.ttf);
+  font-weight: 900;
+  font-style: normal;
+}
+
+.fonte {
+    font-family: "Lato";
+}
+
+.lupa {
+  width: 30px;
+}
+
+#procurar {
+  width: 13vh;
+}
+
+@media (min-width: 1024px) {
+  #procurar {
+    width: 40vh;
+  }
+}
+
+@media (min-width: 768px){
+	#carousel {
+  		display: flex;
+  		flex-wrap: wrap;
+  		justify-content: center;
+	}
+}
+
+.navbar, .dropdown {
+  position: relative; /* necessário para o dropdown absoluto */
+}
+
+.dropdown-menu {
+  position: absolute !important; /* garante que o dropdown fique sobreposto */
+  top: 100%; /* posiciona logo abaixo do botão */
+  left: 0;
+  z-index: 1000; /* para ficar acima dos outros elementos */
+}
+
+@media (min-width: 768px) {
+  .card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+}

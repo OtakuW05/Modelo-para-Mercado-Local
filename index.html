@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Comercio Local</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body class="fonte">
+		<header>
+			<nav class="navbar bg-vermelho-custom col-12">
+				<div class="container">
+					<a class="navbar-brand col-2" href="#">
+						<img
+							src="img/logo_branca.png"
+							alt="Bootstrap"
+							width="70"
+							height="70"
+						/>
+					</a>
+					<ul class="navbar-nav">
+						<li class="nav-item dropdown list-unstyled text-white">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								Categorias
+							</a>
+							<ul class="dropdown-menu" id="dropdown">
+								<li>
+									<a class="dropdown-item" href="#">Todos</a>
+								</li>
+								<!-- <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+							</ul>
+						</li>
+					</ul>
+					<form class="d-flex" role="search">
+						<input
+							class="form-control me-1"
+							type="search"
+							placeholder="Procurar"
+							id="procurar"
+							aria-label="Search"
+						/>
+						<button class="btn border-0" type="submit">
+							<img
+								src="img/icone_lupa.png"
+								alt="icone lupa"
+								class="lupa"
+							/>
+						</button>
+					</form>
+				</div>
+			</nav>
+			<!-- logo -->
+			<!-- menu com dropdown -->
+			<!-- barra de pesquisa com lupa -->
+		</header>
+		<main>
+			<div id="carouselExample" class="carousel slide">
+				<div class="carousel-inner" id="carousel"></div>
+			</div>
+			<!-- carrossel utilizando framework -->
+			<!-- o carrossel vai ser com cards -->
+		</main>
+		<footer
+			class="bg-vermelho-custom text-center text-lg-start text-white align-items-center fixed-bottom"
+		>
+			<!-- Copyright -->
+			<div class="justify-content-center text-lg d-flex pt-3">
+				<img
+					src="img/whatsapp.png"
+					alt="logo whatsapp"
+					width="30"
+					height="30"
+				/>
+				<p class="ms-2">(11) 99999-9999</p>
+			</div>
+			<div class="text-center p-3">
+				<p>© 2026 Copyright: Borcelle</p>
+			</div>
+			<!-- Copyright -->
+		</footer>
+	</body>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+		crossorigin="anonymous"
+	></script>
+	<script src="scripts.js"></script>
+</html>
