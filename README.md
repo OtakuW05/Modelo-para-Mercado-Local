@@ -142,6 +142,22 @@ Todas essas evoluções podem ser feitas **sem alterar o layout atual**, respeit
 
 ---
 
+## ⚠️ Aviso sobre uso de imagens
+
+As imagens utilizadas neste projeto foram obtidas diretamente da web e são usadas apenas para fins educacionais e demonstrativos.
+
+❗ Não é permitido reutilizar essas imagens em projetos comerciais, pois elas podem estar protegidas por direitos autorais.
+
+Caso o projeto seja adaptado para uso real, recomenda-se:
+
+Utilizar imagens próprias
+
+Ou imagens com licença livre (ex.: Unsplash, Pexels, Pixabay)
+
+Ou assets fornecidos oficialmente pelo cliente
+
+---
+
 ## 👤 Autor
 
 Projeto desenvolvido como parte de estudo e portfólio pessoal, com foco em boas práticas, legibilidade e tomada de decisão técnica consciente.
